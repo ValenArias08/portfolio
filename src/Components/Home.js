@@ -12,8 +12,8 @@ const Home = () => {
       <div className='HomePage'>
 
         <div className='HomeText'>
-          <h1>Hi There!</h1>
-          <h1>I'M <b>Valentina Arias</b></h1>
+          <h1>Hola!</h1>
+          <h1>Soy <b>Valentina Arias</b></h1>
           <Typed/>   
         </div>
 
@@ -27,16 +27,14 @@ const Home = () => {
 
       <div className='AboutPage'>
         <div className='AboutText'>
-          <h1 className='AboutTextHeading'>Brief <b>introduction</b></h1>
+          <h1 className='AboutTextHeading'>Breve <b>introducción</b></h1>
           <p>
-            I love the process of changing a raw idea into a website or a product 
-            that impacts lives. 
-            I want to do work that challenges me as a developer & work that I can 
-            be proud of.<br /><br />
-            I am fluent in <b>C++</b> and know a bit of <b>Python</b> and am working on a few 
-            projects in the <b>MERN</b> stack.<br />
-            I plan to learn <b>Next.js</b>, <b>Three.js</b> and<b> Typescript</b> in the near future. <br /><br />
-            Also, I love <b>coffee</b> <CiCoffeeCup style={{scale:"1.5", rotate:"15deg"}}/>   
+            Me apasiona el proceso de transformar ideas en experiencias de juego inmersivas y <b>personajes 3D detallados</b>. 
+            Estoy buscando oportunidades que me desafíen como desarrolladora de videojuegos y me permitan crecer en la creación de modelos 3D en Unity.<br /><br />
+            
+            Tengo conocimientos en C#, <b>Unity</b> y Blender, entre otros. Actualmente, estoy desarrollando mis habilidades en Unity, planeo aprender Maya y <b>Realidad 
+            Virtual</b> en un futuro cercano para expandir mis capacidades en el desarrollo de juegos y aplicaciones interactivas.<br />
+            Además, me encanta <b>dibujar</b> cosas nuevas.<CiCoffeeCup style={{scale:"1.5", rotate:"15deg"}}/>   
           </p>
         </div>
         <Tilt>
