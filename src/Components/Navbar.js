@@ -51,10 +51,10 @@ const Nav = () => {
         </div>
 
         <ul className='NavbarLinks'>
-            <li onClick={hideMenu}><Link to="/"><AiOutlineHome/> Inicio</Link></li>
-            <li onClick={hideMenu}><Link to="/About"><BsPerson/> Sobre mí</Link></li>
-            <li onClick={hideMenu}><Link to="/Project"><BsCodeSlash/> Proyectos</Link></li>
-            <li onClick={hideMenu}><Link to="/Resume"><CgFileDocument/> Curriculum</Link></li>
+            <li onClick={hideMenu}><Link to="/portfolio/"><AiOutlineHome/> Inicio</Link></li>
+            <li onClick={hideMenu}><Link to="/portfolio/about"><BsPerson/> Sobre mí</Link></li>
+            <li onClick={hideMenu}><Link to="/portfolio/project"><BsCodeSlash/> Proyectos</Link></li>
+            <li onClick={hideMenu}><Link to="/portfolio/resume"><CgFileDocument/> Curriculum</Link></li>
         </ul>
         
     </nav>

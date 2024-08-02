@@ -4,21 +4,30 @@ import {CgFileDocument} from "react-icons/cg";
 
 const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
-    TindogDesc : "ESTEEE website is a landing page of Tinder but for dogs. It is a responsive website which was made to understand Bootstrap. I also learned how to host my project on Github and then how to deploy that project using Github pages.",
-    TindogGithub : "https://github.com/DevanshSahni/tindog",
-    TindogWebsite : "https://devanshsahni.github.io/tindog/",
+    EchoesofBillieTitle: "Echoes of Billie",
+    EchoesofBillieDesc:"Sumerge en la misteriosa y fantástica historia de Billie. Perdido y sin recuerdos de cómo llegó a ese lugar, su única esperanza de respuestas es recolectar fragmentos de su memoria, mientras se enfrenta a sus peores pesadillas.",
+    EchoesofBillieGithub:"https://github.com/Sebasm2028/Echoes_of_Billy",
+    EchoesofBillieWebsite:"https://valen-arias.itch.io/echoes-of-billy",
 
-    RogFreeDesc : "A website that shows you over seven specialized yoga postures for specific diseases or health problems. This was a group project made in a team of two for a 36-hour-long online hackathon named Hackodisha 2.0.",
-    RogFreeGithub : "https://github.com/DevanshSahni/Rog-Free",
-    RogFreeWebsite : "https://devanshsahni.github.io/Rog-Free/",
+    ExplosiveBallonTitle : "Explosive Ballon Race",
+    ExplosiveBallonDesc : "Juega este increíble prototipo y trata de superar tu record, pero ten cuidado... puedes explotar intentandolo.",
+    ExplosiveBallonGithub : "https://valen-arias.itch.io/",
+    ExplosiveBallonWebsite : "https://valen-arias.itch.io/explosive-balloon-race",
 
-    News_letterDesc:"A newsletter signup site made using Mailchimp API where the signups can be monitored from the MailChimp account. This project was made to understand API integration, environment variables and vercel deployment.",
-    News_letterGithub:"",
-    NewsletterWebsite:"https://newsletter-signup-teal.vercel.app/",
-    
-    EchoesofBillie1Desc:"An innovative pet management web app enabling pet parents to create unique pet IDs, securely store and share vaccination records, and generate QR codes for pet profiles, enhancing safety.",
-    WigglesGithub:"https://github.com/DevanshSahni/Wiggles",
-    WigglesWebsite:"https://wiggles.vercel.app/",
+    GrabBallTitle : "Grab the ball Rex!",
+    GrabBallDesc : "¿Podrá Max coger la pelota o se le escapará de su hocico?, juega este increíble prototipo y descubrelo!.",
+    GrabBallGithub : "https://valen-arias.itch.io/",
+    GrabBallWebsite : "https://valen-arias.itch.io/challenge-2",
+
+    LaserFoodTitle:"Laser Food",
+    LaserFoodDesc:"¡Oh ho!, los animales escaparon del Zoologico, intenta detenerlos... con una sabrosa pizza!.",
+    LaserFoodGithub:"https://valen-arias.itch.io/",
+    LaserFoodWebsite:"https://valen-arias.itch.io/laser-food",
+
+    SlideCarTitle: "Slide Car",
+    SlideCarDesc:"¿Podrás conducir está camioneta y empujar obstaculos?..",
+    SlideCarGithub:"https://valen-arias.itch.io/",
+    SlideCarWebsite:"https://valen-arias.itch.io/slide-car"
   }
 
   let show ='';
@@ -31,7 +40,7 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
         <img className='projectPhoto' src={projectPhoto} alt="Project display" /> 
         <div>
             <br />
-            <h3>{projectName}</h3>
+            <h3> {desc[projectName + 'Title']}</h3>
             <br />
             {desc[projectName + 'Desc']}
             <br />

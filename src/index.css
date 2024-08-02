@@ -392,6 +392,14 @@ b{
   margin-top: 100px;
 }
 
+.subProjects{
+  text-align: Left;
+  padding-left: 280px;
+  letter-spacing: 0.4px;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
 .project{
   display: flex;
   flex-wrap: wrap;

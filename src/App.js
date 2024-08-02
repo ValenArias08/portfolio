@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes} from "react-router-dom";
 import { useEffect, useState } from "react";
 import Nav from './Components/Navbar';
 import Footer from "./Components/Footer";
@@ -11,7 +11,6 @@ import Lottie from  "lottie-react";
 import nightsky from "./LottieFiles/night-sky.json";
 import HashLoader from "react-spinners/HashLoader";
 
-
 function App() {
   const[Loading,SetLoading]=useState(true);
 
@@ -19,8 +18,8 @@ function App() {
     SetLoading(true)
 
     setTimeout(()=>{
-    SetLoading(false)}
-    ,1900)
+      SetLoading(false)
+    },1900)
   },[])  
   
   return (
@@ -46,10 +45,10 @@ function App() {
       <MoveToTop/>
 
       <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/About" element={<About/>}/>
-        <Route path="/Project" element={<Project/>}/>
-        <Route path="/Resume" element={<Resume/>}/>
+        <Route index path="/portfolio" element={<Home/>} />
+        <Route path="/portfolio/about" element={<About/>}/>
+        <Route path="/portfolio/project" element={<Project/>}/>
+        <Route path="/portfolio/resume" element={<Resume/>}/>
       </Routes>
       
       <Footer/>
