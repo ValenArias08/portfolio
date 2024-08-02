@@ -1,7 +1,7 @@
 import React from 'react'; 
 import { TbBrandCSharp } from "react-icons/tb";
 import {FaUnity, FaJava, FaPython, FaGitAlt} from "react-icons/fa";
-import {SiBlender, SiOracle , SiMysql, SiPostman} from "react-icons/si";
+import {SiBlender, SiOracle , SiMysql, SiPostman, SiAseprite} from "react-icons/si";
 
 const Skills = ({skill}) => {
     const icon = {
@@ -14,6 +14,7 @@ const Skills = ({skill}) => {
         Python : <FaPython/>,
         Oracle : <SiOracle/>,
         MySql : <SiMysql/>,
+        Aseprite: <SiAseprite />
     }
     
   return (

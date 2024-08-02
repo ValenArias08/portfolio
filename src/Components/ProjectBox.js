@@ -4,8 +4,13 @@ import {CgFileDocument} from "react-icons/cg";
 
 const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
+    GalacticGrowTitle: "Galactic Grow",
+    GalacticGrowDesc:"Vive la experiencia de controlar un marciano granjero que busca cuidar sus plantas mágicas de entes desconocidos que se quieren apoderar de ellas.",
+    GalacticGrowGithub: "https://github.com/ValenArias08/Galactic-Grow",
+    GalacticGrowWebsite:"https://valen-arias.itch.io/galactic-grow",
+
     EchoesofBillieTitle: "Echoes of Billie",
-    EchoesofBillieDesc:"Sumerge en la misteriosa y fantástica historia de Billie. Perdido y sin recuerdos de cómo llegó a ese lugar, su única esperanza de respuestas es recolectar fragmentos de su memoria, mientras se enfrenta a sus peores pesadillas.",
+    EchoesofBillieDesc:"Sumergete en la misteriosa y fantástica historia de Billie. Perdido y sin recuerdos de cómo llegó a ese lugar, su única esperanza de respuestas es recolectar fragmentos de su memoria, mientras se enfrenta a sus peores pesadillas.",
     EchoesofBillieGithub:"https://github.com/Sebasm2028/Echoes_of_Billy",
     EchoesofBillieWebsite:"https://valen-arias.itch.io/echoes-of-billy",
 
