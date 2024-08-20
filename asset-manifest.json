@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2194b4ca.css",
-    "main.js": "/portfolio/static/js/main.2f6338e7.js",
+    "main.js": "/portfolio/static/js/main.06fa1a60.js",
     "static/media/Avatar.png": "/portfolio/static/media/Avatar.fa312ccf8f85946c64d0.png",
+    "static/media/guayabo_eterno.png": "/portfolio/static/media/guayabo_eterno.13c5cce663857f73ce2a.png",
     "static/media/Resume.pdf": "/portfolio/static/media/Resume.537a67a03fdfefedafba.pdf",
     "static/media/Galactic_Grow.jpg": "/portfolio/static/media/Galactic_Grow.995485468e7c16faaddc.jpg",
     "static/media/Slide_car_2.jpg": "/portfolio/static/media/Slide_car_2.4dd71ec51d51910be82b.jpg",
@@ -12,10 +13,10 @@
     "static/media/Grab-the-Ball-Rex-1.jpg": "/portfolio/static/media/Grab-the-Ball-Rex-1.63b4a36d8ad6cb856bc4.jpg",
     "index.html": "/portfolio/index.html",
     "main.2194b4ca.css.map": "/portfolio/static/css/main.2194b4ca.css.map",
-    "main.2f6338e7.js.map": "/portfolio/static/js/main.2f6338e7.js.map"
+    "main.06fa1a60.js.map": "/portfolio/static/js/main.06fa1a60.js.map"
   },
   "entrypoints": [
     "static/css/main.2194b4ca.css",
-    "static/js/main.2f6338e7.js"
+    "static/js/main.06fa1a60.js"
   ]
 }
