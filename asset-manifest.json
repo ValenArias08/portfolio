@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.06176f59.css",
-    "main.js": "/portfolio/static/js/main.64cbbd51.js",
+    "main.js": "/portfolio/static/js/main.9830b147.js",
     "static/media/Resume.pdf": "/portfolio/static/media/Resume.87ec4b5967a552ca1b6a.pdf",
+    "static/media/GuayaboEnerno.png": "/portfolio/static/media/GuayaboEnerno.13c5cce663857f73ce2a.png",
     "static/media/Galactic_Grow.jpg": "/portfolio/static/media/Galactic_Grow.995485468e7c16faaddc.jpg",
     "static/media/Slide_car_2.jpg": "/portfolio/static/media/Slide_car_2.4dd71ec51d51910be82b.jpg",
     "static/media/Marciano_alienigena_animation_1_pixel.gif": "/portfolio/static/media/Marciano_alienigena_animation_1_pixel.66c3aec73cdc8bb1aaaf.gif",
@@ -15,10 +16,10 @@
     "static/media/Grab-the-Ball-Rex-1.jpg": "/portfolio/static/media/Grab-the-Ball-Rex-1.63b4a36d8ad6cb856bc4.jpg",
     "index.html": "/portfolio/index.html",
     "main.06176f59.css.map": "/portfolio/static/css/main.06176f59.css.map",
-    "main.64cbbd51.js.map": "/portfolio/static/js/main.64cbbd51.js.map"
+    "main.9830b147.js.map": "/portfolio/static/js/main.9830b147.js.map"
   },
   "entrypoints": [
     "static/css/main.06176f59.css",
-    "static/js/main.64cbbd51.js"
+    "static/js/main.9830b147.js"
   ]
 }
