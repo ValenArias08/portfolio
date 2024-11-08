@@ -6,7 +6,7 @@ import { FaItchIo } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer>
-      <h4>Copyright &copy; 2024</h4>
+      <h4>All Rights Reserved &copy; 2024</h4>
       <div className='footerLinks'>
         <a href="https://github.com/ValenArias08" target='_blank'><FaGithub/></a>
         <a href='mailTo:valentina.ariasv20@gmail.com' target='_blank'><GrMail/></a>

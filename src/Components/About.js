@@ -11,11 +11,12 @@ const About = () => {
         <div className='AboutText'>
           <h1 className='AboutTextHeading' >¡Conoce más <b>sobre</b> mí!</h1>
           <p>
-          Hola, mi nombre es <b>Valentina Arias</b> y soy de Colombia, Bogotá.
-          Soy una <b>desarrolladora de videojuegos</b> y modeladora de personajes 2d. <br/><br/>
-          Realicé una especialización en <b>desarrollo de videojuegos con Unity</b> en Generation Colombia, una organización de alto impacto.
-          Me encanta aprender cosas nuevas y aplicarlas en mis proyectos, puedes ver algunos de mis trabajos en la sección de proyectos.<br/><br/>
-          Estoy <b>abierto</b> a nuevas colaboraciones o trabajos en los que pueda contribuir y crecer. No dudes en conectarte conmigo, los enlaces están en el pie de página.<br/>
+          Hola, soy <b>Valentina Arias</b> de Bogotá, Colombia, y me especializo en el <b>diseño de personajes</b> y entornos en <b>pixel art</b>.<br/><br/> 
+          Realicé una especialización en <b>desarrollo de videojuegos</b> con Unity en Generation Colombia, una organización de alto impacto.  
+          Disfruto aprender y aplicar nuevas técnicas en mis proyectos, algunos de los cuales puedes ver en la sección de <b>proyectos</b>.<br/><br/>
+
+          Estoy abierta a colaborar en proyectos creativos donde pueda <b>contribuir</b> y seguir creciendo en el arte pixelado. 
+          No dudes en contactarme.<br/><br/>
           </p>
         </div>
 

@@ -5,6 +5,7 @@ import Footer from "./Components/Footer";
 import Home from "./Components/Home";
 import About from "./Components/About";
 import Resume from "./Components/Resume";
+import Galery from "./Components/Galery";
 import Project from "./Components/Projects";
 import MoveToTop from "./Components/MoveToTop";
 import Lottie from  "lottie-react";
@@ -37,9 +38,9 @@ function App() {
       ):(
       <div>
       
-      <Lottie className="bg" animationData={nightsky} loop={true} />  
+      <Lottie className="bg" animationData={nightsky} loop={true} /> 
       <Lottie className="bgtwo" animationData={nightsky} loop={true} />   
-      <Lottie className="bgtemp" animationData={nightsky} loop={true} /> 
+      <Lottie className="bgtemp" animationData={nightsky} loop={true} />
 
       <Nav/>
       <MoveToTop/>
@@ -49,6 +50,7 @@ function App() {
         <Route path="/portfolio/about" element={<About/>}/>
         <Route path="/portfolio/project" element={<Project/>}/>
         <Route path="/portfolio/resume" element={<Resume/>}/>
+        <Route path="/portfolio/galery" element={<Galery/>}/>
       </Routes>
       
       <Footer/>

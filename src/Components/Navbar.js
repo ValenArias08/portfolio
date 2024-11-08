@@ -54,6 +54,7 @@ const Nav = () => {
             <li onClick={hideMenu}><Link to="/portfolio/"><AiOutlineHome/> Inicio</Link></li>
             <li onClick={hideMenu}><Link to="/portfolio/about"><BsPerson/> Sobre mí</Link></li>
             <li onClick={hideMenu}><Link to="/portfolio/project"><BsCodeSlash/> Proyectos</Link></li>
+            <li onClick={hideMenu}><Link to="/portfolio/galery"><BsCodeSlash/> Galeria Pixel</Link></li>
             <li onClick={hideMenu}><Link to="/portfolio/resume"><CgFileDocument/> Curriculum</Link></li>
         </ul>
         

@@ -381,6 +381,153 @@ b{
   }
 }
 
+/*GALERY*/
+
+.GaleryPage{
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 80vh;
+  margin-top: 100px;
+  margin-bottom: -50px;
+  align-items: center;
+  padding: 30px;
+}
+
+.GaleryText{
+  align-items: center;
+  padding-right: 7%;
+  font-weight: 500;
+  font-size: 22px;
+  display: flex;
+  gap: 20px;
+}
+
+.GaleryText a:link, .GaleryText a:visited {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease, padding 0.3s ease; /* Transición suave también para el padding */
+  font-weight: 500;
+  font-size: 22px;
+  padding: 10px 20px; /* Padding más pequeño para mayor control */
+  border: 2px solid transparent; /* Para tener borde cuando no se hace hover */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+.GaleryText a:hover {
+  color: #bb72ff85;
+  padding: 10px 30px; /* Aumentamos el padding solo en hover para hacerlo más visual */
+  border-color: #9067C6; /* Cambiamos el color del borde cuando se pasa el mouse */
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.GaleryText h1{
+  font-weight: 600;
+  font-size: 38px;
+  letter-spacing: 0.7px;
+  padding-top: 10px;
+}
+
+.GaleryMenu{
+  width: 25%;
+  height: 100vh;
+  float: left;
+  text-align: center;
+  padding: 30px;
+  background-color: rgba(139, 139, 139, 0.5);
+}
+
+.GaleryMain{
+  width: 75%;
+  float: left;
+  padding: 30px;
+  text-align: left;
+}
+
+@media(max-width:900px){
+  .GaleryPage{
+    display: block;
+    text-align: center;
+    margin-top: 150px;
+    padding: 30px;
+    border: #ffffff;
+  }
+  .GaleryText{
+    text-align: left;
+    display: inline-block;
+  }
+
+  .GaleryMenu{
+    width: 25%;
+    float: left;
+    background-color: gray;
+  }
+
+  .GaleryMain{
+    width: 75%;
+    float: left;
+    text-align: left;
+  }
+}
+
+@media(max-width: 500px) {
+  .GaleryPage{
+    min-height: 70vh;
+  }
+  .NavbarLinks{
+    inset: 0 0 0 30%;
+  }
+  .GaleryText h1{
+    font-weight: 500;
+    font-size: 28px;
+  }  
+  .TypeEffect{
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .illustration{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 0px;
+  }
+}
+
+/* Sidebar.css */
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: #333;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-top: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 20px 0;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+.sidebar a:hover {
+  background-color: #444;
+}
+
+/* Estilos para el contenido */
+.content {
+  margin-left: 200px;
+  padding: 20px;
+}
 
 /* Project */
 
@@ -446,6 +593,7 @@ b{
   text-decoration: none;
   border-style: none;
 }
+
 
 
 /* Resume */
@@ -523,3 +671,4 @@ footer h4{
     height: 110px;
   }
 }
+
